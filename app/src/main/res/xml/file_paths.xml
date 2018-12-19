@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+
+
+        <!--<files-path/>代表的根目录： Context.getFilesDir()-->
+
+        <!--<external-path/>代表的根目录: Environment.getExternalStorageDirectory()-->
+
+        <!--<cache-path/>代表的根目录: getCacheDir()-->
+
+
+        <!--1、对应内部内存卡根目录：Context.getFileDir()-->
+        <files-path
+            name="int_root"
+            path="/" />
+        <!--2、对应应用默认缓存根目录：Context.getCacheDir()-->
+        <cache-path
+            name="app_cache"
+            path="/" />
+        <!--3、对应外部内存卡根目录：Environment.getExternalStorageDirectory()-->
+        <external-path
+            name="camera_photos"
+            path="/" />
+
+
+
+
+    </paths>
+</resources>
+
+

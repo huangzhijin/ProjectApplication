@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_new_friend"
+        style="@style/style_contact_top_item"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/action_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:textColor="@color/common_item_text_black"
+            android:text="新的朋友" />
+
+        <TextView
+            android:id="@+id/tv_new_tips"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/action_back"
+            android:visibility="gone"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider_new_friend"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_divider_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_phone_contact"
+        style="@style/style_contact_top_item"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/action_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:textColor="@color/common_item_text_black"
+            android:text="手机联系人" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_divider_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_group_item"
+        style="@style/style_contact_top_item"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/action_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:textColor="@color/common_item_text_black"
+            android:text="我的群组" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_window_default">#EFEFF3</color>
+    <color name="common_text_blue_color">#2d91ef</color>
+
+    <!--主色调-->
+    <color name="common_main_color">#3688FF</color>
+    <color name="common_main_color2">#777C8C</color>
+    <!--分割线颜色-->
+    <color name="common_divider_color">#E8E8E8</color>
+    <color name="common_divider_color2">#F8F8F8</color>
+    <!--文字颜色-->
+    <color name="common_txt_color">#c8c8c8</color>
+    <color name="common_txt_color2">#1b1b1b</color>
+    <color name="worker_app_txt_color">#5F6379</color>
+
+    <color name="common_year">#E93D4B</color>
+
+    <color name="common_bg_color">#EFEFF3</color>
+    <color name="white">#ffffff</color>
+    <color name="common_default_tab_color">#858585</color>
+
+
+    <!--app背景色-->
+    <color name="app_bg">#F8F8F8</color>
+    <!--文字颜色 黑，中灰，灰-->
+    <color name="txt_color1">#000000</color>
+    <color name="txt_color2">#777777</color>
+    <color name="txt_color3">#C5C5C5</color>
+    <color name="common_default_text_color">#999999</color>
+
+
+    <color name="txt_color_blue">#42adf7</color>
+    <color name="txt_color_orange">#ff851a</color>
+    <color name="txt_color_green">#60b360</color>
+    <color name="txt_color_red">#ff6258</color>
+
+
+    <color name="header_title_text_white_color">#FFFFFF</color>
+    <color name="bg_status_bar_default">#2D2C32</color>
+    <color name="text_context">#121212</color>
+    <color name="key_ok_color">#1280FA</color>
+    <color name="key_ok_color_pressed">#0174f2</color>
+
+    <color name="common_item_text_black">#121212</color>
+    <color name="pas_bg">#07000000</color>
+
+
+    <color name="toggle_back_color">#A2A2A2</color>
+    <color name="toggle_back_checked_color">#2D91EF</color>
+    <color name="toggle_thumnail_color">#FFFFFF</color>
+
+</resources>
