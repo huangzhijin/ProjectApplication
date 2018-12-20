@@ -26,4 +26,16 @@ public class ceshi {
     //------------------打开暂存区后---------------
 
     //-------------------last-------------
+
+
+   // dddd
+
+
+
+
+
+
+    //________________checkoutrevision___xindetemp__________________________
+
+    //ceshicheckoutrevision
 }
